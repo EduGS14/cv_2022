@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(25, 1fr);
+  height: 100vh;
+}
+#logo{
+  display: grid;
+  grid-column: 12;
+  grid-row: 1;
+  fill: blue;
+
+}
+#CirlceOne{ 
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-column: 1/3;
+  grid-row: 1/3;
+  width: 300px;
+  height: 300px;
+  background: #00E2E2;
+  border-radius: 50%;
+  margin: 0px;
+  padding: 0px;}
+
+
+#CirlceTwo{ 
+  display: grid;
+  grid-column: 1/3;
+  grid-row: 1/3;
+  align-items: center;
+  justify-items: center;
+  width: 250px;
+  height: 250px;
+  background: red;
+  border-radius: 50%}
+
+#NavCv{
+  display:grid;
+  grid-column: 2/13;
+  grid-row: 2;
+  text-decoration: none;
+  color: #fff;
+  background-color: #00E2E2;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+	align-content: center;
+  height: 100px;
+}
+
+#Nombre{
+  display: grid;
+  grid-column: 1/3;
+  grid-row: 3;
+  text-align: center;
+  color: #fff;}
+
+#Profecion{  
+  display: grid;
+  grid-column: 1/3;
+  grid-row: 4;
+  text-align: center;
+  color: #fff;
+height: 30px;
+margin: 0px;}
+
+#Acerca{  
+  display: grid;
+  grid-column: 1/3;
+  grid-row: 5;
+  text-align: center;
+  color: #fff;}
+
+#AcercaTex{  
+  display: grid;
+  grid-column: 1/3;
+  grid-row: 6;
+  text-align: center;
+  color: #fff;}
+
+#BColor{
+  background-color: #030528;
+  grid-column: 1/3;
+  grid-row: 1/7;
+  }
