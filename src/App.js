@@ -6,7 +6,7 @@ import Experties from "./componentes/Experties"
 import Referencias from "./componentes/Referencias"
 import Intereses from "./componentes/Intereses"
 import Estudios from "./componentes/Estudios"
-import ExperieciaL from "./componentes/ExperieciaL"
+
 
 import Footer from "./componentes/Footer"
 
@@ -19,9 +19,9 @@ const App = () => {
       <Habilidades/>
       <Experties/>
       <Referencias/>
-      <Intereses/>
+      <Intereses/> 
       <Estudios/>
-      <ExperieciaL/>
+     
       <Footer/>
 
   </>
