@@ -4,17 +4,21 @@ const Header = () =>{
   return (
     <header>
       <div id="BColor"></div>
-    <img id="logo" src="./componentes/SVG/Edu.svg" alt="" />
+    <img id="logo" src="../componentes/SVG/Edu.svg" alt="" />
     <nav id="NavCv">
-        <a href="">Instagram</a>
-        <a href="https://www.linkedin.com/in/eduardo-garza-serrano-672881152/">Linkedin</a>
-        <a href="">Portafolio</a>
+      <button> Instagram</button>
+      <button> Linkedin</button>
+      <button>Portafolio</button>
     </nav>
     <span id="CirlceOne"><span id="CirlceTwo"></span></span>
     <h1 id="Nombre">Eduardo <br />Garza Serrano</h1>
     <h5 id="Profecion">Diseñador</h5>
     <h3 id="Acerca">Acerca de Mí</h3>
-    <p  id="AcercaTex"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque, magnam quod odit nesciunt esse optio consectetur pariatur perferendis fugit, possimus ratione vel suscipit delectus consequuntur? Commodi id deleniti debitis?</p>
+    <p  id="AcercaTex"> Licenciado en diseño Industrial con experiencia en diseño de experiencias de usuario e Interfaces (UX/UI) y programación Frontend. Me considero una persona versátil con una fuerte mentalidad creativa, capaz de trabajar bajo presión. 
+
+Soy una persona ambiciosa la cual siempre busca desafiarse a si mismo buscando nuevas oportunidades y retos profesionales. 
+</p>
+<span class="grap" id="GrapOne"></span>
     
     </header>
   )
