@@ -2,9 +2,12 @@ import React from 'react'
 
 const Header = () =>{
   return (
-    <header>
-      <div id="BColor"></div>
-    <img id="logo" src="../componentes/SVG/Edu.svg" alt="" />
+    
+      <header>
+        <div class="MainContainer">
+  
+    <div id="BColor"></div>
+    <img id="logo" src="./SVG/Edu.svg" alt=""/>
     <nav id="NavCv">
       <button> Instagram</button>
       <button> Linkedin</button>
@@ -19,8 +22,9 @@ const Header = () =>{
 Soy una persona ambiciosa la cual siempre busca desafiarse a si mismo buscando nuevas oportunidades y retos profesionales. 
 </p>
 <span class="grap" id="GrapOne"></span>
-    
+</div>
     </header>
+    
   )
   
 } 
